@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* Global Styles */
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 150%;
+	margin: 0px;
+	
+	background-color: #f8f8f8;
+}
+
+#wrapper {
+	text-align: center;
+	
+	width: 80%;
+	min-width: 560px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (max-width: 768px){/* swap to 100% width if window is small */
+	#wrapper {
+		width: 100%;
+	}
+}
+/* End of Global Styles */
+
+#calcInterface {
+	width: 250px;
+	padding: 15px 0px;
+	background-color: #ddd;
+	border: 2px solid #888;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px #bbb;
+}
+
+#calcInterface input {
+	width: 90%;
+}
+
+#calcInterface h1 {
+	margin: 5px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Web Calculator</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="jquery-1.12.3.js"></script>
+	<script src="calcInput.js"></script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="wrapper">
+		<h1>Web Calculator</h1>
+		
+		<section id="calcInterface">
+			<form action="/calc" method="POST">
+				<h1> Calculator </h1>
+				<input id="outputDisplay" placeholder="Output" readonly></span><br>
+				<input id="inputDisplay" name = "input" placeholder="Input"></input><br>
+				<div class="row">
+					<button id="num1" type="button" value="1">1</button>
+					<button id="num2" type="button" value="2">2</button>
+					<button id="num3" type="button" value="3">3</button>
+				</div>
+				<div class="row">
+					<button id="num4" type="button" value="4">4</button>
+					<button id="num5" type="button" value="5">5</button> 
+					<button id="num6" type="button" value="6">6</button>
+				</div>
+				<div class="row">
+					<button id="num7"type="button" value="7">7</button>
+					<button id="num8" type="button" value="8">8</button>
+					<button id="num9" type="button" value="9">9</button>
+				</div>
+				<div class="row">
+					<button id="num0" type="button" value="0">0</button>
+				</div>
+				<div class="row">
+					<button id="add" type="button" value="+">+</button>
+					<button id="sub" type="button" value="-">-</button>
+					<button id="mul" type="button" value="*">*</button>
+					<button id="div" type="button" value="/">/</button>
+				</div>
+				<div class="row">
+					<button id="subBut" type="button">submit</button>
+				</div>
+			</form>
+			<span id="errorMessage"></span>
+		</section>
+		
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
