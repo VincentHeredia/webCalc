@@ -2,7 +2,7 @@
   "name": "webcalculator",
   "version": "1.0.0",
   "description": "small project that lets the user send input to a server to be processed and returned",
-  "main": "serverExpress.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
