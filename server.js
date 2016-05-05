@@ -34,7 +34,9 @@ app.post('/calcEval', urlencodedParser, function (req, res) {
 	});
 });
 
-var server = app.listen(8000, function () {
+var port = Number(process.env.PORT || 8000);//get the port from the environment
+
+var server = app.listen(port, function () {
 
     var host = server.address().address
     var port = server.address().port
